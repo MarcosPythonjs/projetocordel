@@ -3,11 +3,12 @@
 body {
     padding: 0;
     margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 
 #conteiner {
     background: black;
-    height: 28vw;
+    height: 18vmax;
     margin: auto;
     padding: 5px;
     
@@ -15,7 +16,6 @@ body {
 }
 
 #content {
-    border: 1px solid red;
     width: 100%;
     height: auto;
     margin: auto;
@@ -48,4 +48,34 @@ body {
 section#content > p > a{
     text-decoration: none;
     color: white;
+}
+
+.section {
+    padding: 90px 20px;
+}
+
+#conteudo {
+    font-family: Sriracha, cursive;
+    font-style: italic;
+    font-size: 3.3vw;
+    font-weight: 500;
+    letter-spacing: 0.5px;    
+    text-align: start;
+    line-height: 7vw;
+}
+
+.atributo {
+    background: rgba(0, 0, 0, 0.541);
+    color: white;
+    padding: 5px;
+    width: max-content;
+}
+
+.backgroundimage {
+    padding: 90px 20px;
+    background-image: url(imagens/pexels-kelsie-cabeceiras-3097337.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: contain cover;
 }
