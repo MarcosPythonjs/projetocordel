@@ -45,21 +45,24 @@ body {
     margin-top: 0;
 }
 
+#sombra {
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.589) inset;
+}
+
 section#content > p > a{
     text-decoration: none;
     color: white;
 }
 
 .section {
-    padding: 90px 20px;
+    padding: 50px 20px;
 }
 
 #conteudo {
     font-family: Sriracha, cursive;
     font-style: italic;
     font-size: 3.3vw;
-    font-weight: 500;
-    letter-spacing: 0.5px;    
+    font-weight: 500;    
     text-align: start;
     line-height: 7vw;
 }
@@ -67,15 +70,50 @@ section#content > p > a{
 .atributo {
     background: rgba(0, 0, 0, 0.541);
     color: white;
-    padding: 5px;
+    padding: 10px;
     width: max-content;
+    border-radius: 10px;
 }
 
 .backgroundimage {
     padding: 90px 20px;
-    background-image: url(imagens/pexels-kelsie-cabeceiras-3097337.jpg);
+    background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     background-size: contain cover;
+}
+
+.backgroundimage2 {
+    padding: 90px 20px;
+    background-image: url(imagens/background002.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: auto;
+    color: white;
+}
+
+#contorno {
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+footer {
+    font-family: monospace;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    transition: all 0.3s;
+    color: blueviolet;
 }
