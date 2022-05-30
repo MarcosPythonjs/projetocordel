@@ -30,12 +30,14 @@ body {
 }
 
 #titlecordel {
+    font-variant: small-caps;
     font-family: 'Passion One', cursive;
     font-size: 10vw;
     letter-spacing: 1px;
     word-spacing: 5px;
     color: white;
     margin: auto;
+
 }
 
 #autor {
