@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Paytone+One&display=swap');
 @charset "UTF-8";
 
+:root {
+    --font1: verdana, Geneva, sans-serif;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -82,9 +86,9 @@ section#content > p > a{
     padding: 90px 20px;
     background-image: url(imagens/background001.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
-    background-size: contain cover;
+    background-size: cover;
 }
 
 .backgroundimage2 {
@@ -93,7 +97,7 @@ section#content > p > a{
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: auto;
+    background-size: cover;
     color: white;
 }
 
